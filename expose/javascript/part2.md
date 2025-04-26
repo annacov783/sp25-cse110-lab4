@@ -29,3 +29,5 @@
     E. true == 2 : false
     F. true == Boolean : true
 15. The "==" operator checks for equality by evaluating whether the overall value is the same. The "===" operator evaluates the types and checks if they are the same.
+17. The modifyArray() function is called. The program begins executing the code within this function, filling the new declared array with the doubled values from the provided array. In this program, the callback parameter is the doSomething() function - returns the value times two. This is called as the old elements are being added to the new array. The program reaches the return statement and returns: "[2, 4, 6]".
+
