@@ -1,0 +1,2 @@
+1. The correct result was not being calculated because the values of num1 and num2 were obtained as strings, rather than numerical integers. When the program attempted to add the values, it was only able to concatenate the strings into one large string.
+2. I would fix the issue by adding a function that obtains the numerical integers from strings. It seems like the parseInt() function may achieve this goal. The function would surround each of the two lines of code that procure the num1 and num2 values from the website.
